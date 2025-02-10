@@ -5,7 +5,7 @@ let btn_main = document.querySelector(".btn_main")
 
 btn_main.addEventListener("click",() =>{
 
-    window.location.href = "file:///D:/imanproject/shopping.html";
+    window.location.href = "https://devilenta.github.io/Accounting-website/shopping.html";
     
 })
 
