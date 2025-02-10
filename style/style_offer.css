@@ -1,0 +1,73 @@
+@import url(style_home.css);
+
+.section1_offer{
+    width: 100%;
+    height: 600px;
+    background-color: #FADA7A;
+}
+.section1_offer{
+    display: flex
+;
+    flex-wrap: wrap;
+   
+    
+}
+.section1_offer h2{
+    display: flex;
+    justify-content: center;
+width: 100%;
+align-items: center;
+
+}
+.text_area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+
+
+    }
+
+.text_area li {
+    font-size: larger;
+    list-style-type: circle;
+    display: flex
+;
+    width: 70%;
+}
+.section2_offer{
+    height: 1470px;
+}
+.form_offer{
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: 0;
+
+}
+.form_offer_title{
+    margin-top: 10%;
+    border: 2px solid;
+    display: flex;
+    width: 65%;
+    
+    padding: 30px;
+    justify-content: center;
+    
+
+
+    border-bottom: 0px;
+}
+.form_offer_info{
+    display: flex;
+    width: 65%;
+    height: 460px;
+    align-items: flex-start;
+    border: 2px solid;
+    margin-bottom: 300px;
+    padding: 55px;
+
+}

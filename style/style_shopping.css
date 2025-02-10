@@ -1,0 +1,43 @@
+@import url(style_home.css);
+
+.section1_shoping{
+    height: 1000px;
+}
+.section1_shoping_text{
+    margin: 30px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1_shoping_info_name{
+    margin: 30px;
+    display: flex;
+    height: 150px;
+    width: 40%;
+    border-bottom: 2px solid #478CCF ;
+}
+.section1_shoping_info_name img{
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+}
+
+
+
+.section1_shoping_info_name h3 {
+    position: absolute;
+    height: 30px;
+    margin-right: 100px;
+    color:#478CCF ;
+    
+    
+}
+.section1_shoping_info_name p {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+    
+}
