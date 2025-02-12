@@ -33,6 +33,7 @@ box.forEach((box_click)=>{
         
             box_click.classList.remove("box_selected")
 
+
         box_click.classList.add("box_selected")
         
     })
