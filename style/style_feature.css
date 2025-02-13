@@ -17,12 +17,17 @@
 .section1_feature_video{
     height: 100%;
     width: 49%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+}
+.section1_feature_video video{
+
+    height: 100%;
+    /* width: 80%; */
 }
 .section2_feature{
 width: 100%;
 /* background-color: aquamarine; */
-    height: 4500px;
+    /* height: 4500px; */
 }
 
 
@@ -75,6 +80,10 @@ transition: 0.2s;
     
     color: red;
     display: none;
+}
+.section2_feature_icon p{
+text-align: center;
+
 }
 .selected_box_efect{
 
