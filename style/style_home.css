@@ -45,6 +45,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: vaziri;
+    overflow-x: hidden;
 }
 
 body{
@@ -161,7 +162,7 @@ justify-content: space-between;
 .container{
     margin: auto;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     /* background-color: rgb(255, 255, 255); */
     
 
@@ -178,8 +179,8 @@ justify-content: space-between;
 .image_home{
     
     z-index: -1;
-width: 668px;
-height: 650px;
+width: 50%;
+height: 100%;
 
 }
 
@@ -228,10 +229,10 @@ height: 650px;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-evenly;
-    width: 100%;
+    width: 160vw;
     height: 700px;
     background-color:#F3FAFF ;
-
+    
 }
 .text_align{
     
@@ -239,27 +240,33 @@ height: 650px;
     
 }
 .text_sec{
-    margin-top: 40px;
+   display: flex;
+   align-items: center;
+   margin: auto 20%;
+    /* margin-top: 0px 40px; */
     width: 100%;
 }
 
 .section2_box{
     display: flex;
-    width: 300%;
+    width: 100%;
+    padding-top: 30px;
     
-
-
+    
+    
 }
 .box{
-        width: 26vw;
-
-    height: 287px;
+    width: 36vw;
+    
+    overflow-y: hidden;
+    height: 290px;
     background-color: #fafafa;
     box-shadow: 0px 0px 20px #bdbdbd;
     border-radius: 15px;
     margin: 0px 3vw;
     /* animation: test 0s ease-in forwards; */
     transition: 0.5s;
+    /* overflow-y: hidden; */
 }
 .box_selected{
     transition: 0.5s;
@@ -313,12 +320,14 @@ box-shadow: 0px 0px 20px #478CCF;
 
 }
 .selector_box{
-    display: flex;
-    height: 10%;
-    width: 100%;
+    display: flex
+    ;
+        height: 10%;
+        width: 100%;
+        align-items: center;
+        margin-right: -60vw;
+        justify-content: center;
     
-    align-items: center;
-    justify-content: center;
     
 }
 .selector{
@@ -433,4 +442,56 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
     background-color: #4a556800;
 
 
+}
+
+@media screen and (max-width : 1280px) {
+.text_sec{
+
+    display: flex
+;
+    align-items: center;
+    margin: auto 14%;
+    width: 100%;
+}
+    
+    
+}
+@media screen and (max-width : 480px) {
+
+    body{
+
+        
+    }
+    .header_btn{
+
+        display: none;
+    }
+    
+    h1{
+
+        font-size: 20px;
+        font-weight: bold;
+    }
+    button{
+   
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .section1 {
+        
+            display: flex;
+            width: 100%;
+            /* height: 90vh; */
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        
+    }
+
+    .image_home{
+    
+        z-index: -1;
+    width: 100%;
+    height: 200px;
+    
+    }
 }
