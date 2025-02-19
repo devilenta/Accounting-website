@@ -470,10 +470,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
 }
 @media screen and (max-width : 480px) {
 
-    body{
-
-        
-    }
+    
     .header_btn{
 
         display: none;
