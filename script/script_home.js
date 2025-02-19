@@ -1,6 +1,7 @@
 let btn_main = document.querySelector(".btn_main")
 let box = document.querySelectorAll(".box")
 let selector = document.querySelectorAll(".selector")
+let massage_box = document.querySelector(".massage_box")
  
 
 
@@ -49,18 +50,27 @@ box.forEach((box_click)=>{
 
 
     box_click.addEventListener("click",function(){
+       
         
+        show_phone_massage_box(box_click)
         remove_selected_func(selector ,box_click)
         move_box_func(box, box_click )
-       
+        
     })
-
-   
-
-
-
+    
+    
+    
+    
+    
 })
 
+function show_phone_massage_box(box_click){
+    massage_box.innerHTML=box_click.children[1].children[1].innerHTML
+    // console.log("salam");
+    
+    // console.log(box_click.children[1].children[1].innerHTML);
+
+}
 
 
 
@@ -78,6 +88,7 @@ function remove_selected_func(circle , box_click){
 function move_box_func(box , box_click){
 
     box.forEach(function(ghum){
+        
         if(box_click.dataset.a == 1){
 
 
