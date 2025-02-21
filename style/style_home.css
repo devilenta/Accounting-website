@@ -499,7 +499,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         width: 70vw;
         height: 70vh;
         margin: auto ;
-        margin-top: 20vh;
+        margin-top: 15vh;
         display: flex;
         transform: translate(0%, 0%) scale(0);
         transition: transform 1.5s ease-in-out;
