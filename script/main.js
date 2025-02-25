@@ -13,6 +13,7 @@ let row_menu = document.querySelectorAll(".row_menu")
 let one = document.querySelectorAll(".one")
 let sec = document.querySelectorAll(".sec")
 
+let god_help = document.querySelector(".god_help")
 
 
 
@@ -22,10 +23,9 @@ let sec = document.querySelectorAll(".sec")
 menu_header.addEventListener("click",function(){
     
     background_menu.style.display="block"
-   
     
     setTimeout(() => {
-        menu.style.transform = "translate(0%, 0%) scale(1)"
+        menu.style.transform = "translate(20%, -2%) scale(1)"
         
         menu.style.transition = "transform 1s ease-in-out"
     }, 1);
@@ -43,7 +43,7 @@ close_image_header.addEventListener("click",function(){
     
     
         menu.style.transition = "transform 0.5s ease-in-out"
-        menu.style.transform = "translate(0%, 0%) scale(0)"
+        menu.style.transform = "translate(140%, 0%) scale(1)"
     
     setTimeout(() => {
     background_menu.style.display="none"
@@ -58,34 +58,39 @@ close_image_header.addEventListener("click",function(){
 
 
 Products_menu.addEventListener("click",function(){
-
-    one.forEach(function(row){
-
-        row.style.display = "none"
-        back_image_header.style.opacity="0%"
-    })
-    sec.forEach(function(row){
-        back_image_header.style.opacity="100%"
-        row.style.display = "flex"
-    })
+    
+    console.log("salam");
     
     
-})
-
-back_image_header.addEventListener("click",function(){
-
-
-    one.forEach(function(row){
-
-        row.style.display = "flex"
-        back_image_header.style.opacity="100%"
-    })
-    sec.forEach(function(row){
-        back_image_header.style.opacity="0%"
-        row.style.display = "none"
-    })
+    // setTimeout(() => {
+        
+        sec.forEach(function(row){
+            //         row.style.transform = "translate(0%, -2%) scale(1)"
+            row.classList.toggle("god_help")
+        
+    //     row.style.transition = "10s ease-in-out"
+            
+    //         row.style.display = "flex"
+        })
+        
+    // }, 1);
     
 })
+
+// back_image_header.addEventListener("click",function(){
+
+
+//     one.forEach(function(row){
+
+//         row.style.display = "flex"
+//         back_image_header.style.opacity="100%"
+//     })
+//     sec.forEach(function(row){
+//         back_image_header.style.opacity="0%"
+//         row.style.display = "none"
+//     })
+    
+// })
 
 
 
