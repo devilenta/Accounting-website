@@ -62,3 +62,70 @@
     width: 70%;
     height: 35vh;
 }
+@media screen and (max-width : 985px) {
+
+    .container{
+        height: 100%;
+
+        margin-top: 15vh;
+    }
+    .section1_products{
+
+        height: 100%;
+    }
+
+.section2_products_sec1{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    width: 100%;
+    /* height: 65vh; */
+    padding: 5%;
+}
+.section2_products_sec1 h2{
+    font-size: 18px;
+    padding: 5%;
+
+
+}
+.section2_products_sec1 p{
+    font-size: 15px;
+    padding: 5%;
+
+
+}
+.section2_products_sec1 img {
+
+
+    display: none;
+}
+.section2_products_sec2{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+    width: 100%;
+    /* height: 65vh; */
+    padding: 5%;
+}
+.section2_products_sec2 h2{
+    font-size: 18px;
+    padding: 5%;
+
+
+}
+.section2_products_sec2 p{
+    font-size: 15px;
+    padding: 5%;
+
+
+}
+
+
+    .section2_products_sec2 img{
+
+        display: none;
+    }
+}

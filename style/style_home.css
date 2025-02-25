@@ -564,7 +564,7 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
     .back_close{
 
         display: flex;
-                width: 100%;
+                width: 35%;
                 justify-content: flex-end;
                 position: absolute;
     }
@@ -707,10 +707,10 @@ box-shadow: -1px -1px 7px 0px #c3c3c3;
         overflow-y: hidden;
      }
     .box{
-        display: flex
-;
+        display: flex;
         flex-wrap: wrap;
         height: 75%;
+        /* margin: 0px 3vw; */
     }
     
     .text_box {
