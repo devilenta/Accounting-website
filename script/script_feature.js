@@ -17,10 +17,10 @@ test.forEach(function(box){
         
         
         box.classList.add("selected_box_efect")
-        box.style.width = "60%"
+        box.style.width = "25%"
         box.style.height = ""
         box.style.transition = "1s"
-        // box.style.padding =  "5px 15px"
+        box.style.padding =  "10px 40px"
 
 
 
@@ -34,8 +34,8 @@ test.forEach(function(box){
             siblings.forEach(function(yum){
                 
                 
-                yum.style.width = "35%"
-                yum.style.height = "35%"
+                yum.style.width = "22%"
+                yum.style.height = "22%"
                 yum.classList.remove("selected_box_efect")
                 
                     
