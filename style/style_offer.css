@@ -120,8 +120,9 @@ align-items: center;
 .one_moment span {
     display: flex;
     justify-content: space-between;
-    margin-right: 3%;
-    margin-left: 5%;
+    margin-right: 7%;
+   
+    padding-left: 13%;
     align-items: center;
     overflow: hidden;
     height: 20%;
@@ -142,6 +143,16 @@ align-items: center;
     width: 30%;
 }
 
+.one_moment p {
+   
+    color: green;
+    font-weight: bold;
+    
+}
+.one_moment p.red{
+
+    color: #ff0000;
+}
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (max-width : 985px) {
     .form_offer{
