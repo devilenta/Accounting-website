@@ -1,5 +1,6 @@
 let section2_feature_icon = document.querySelectorAll(".section2_feature_icon")
 
+
 section2_feature_icon[2].addEventListener("click",()=>{
 
     
@@ -17,7 +18,13 @@ test.forEach(function(box){
         
         
         box.classList.add("selected_box_efect")
-        box.style.width = "60%"
+        if(window.outerWidth <= 985){
+
+            box.style.width = "80%"
+        }else{
+
+            box.style.width = "30%"
+        }
         box.style.height = ""
         box.style.transition = "1s"
         box.style.padding =  "10px 40px"
@@ -33,15 +40,26 @@ test.forEach(function(box){
             
             siblings.forEach(function(yum){
                 
-                
-                yum.style.width = "34%"
-                yum.style.height = "34%"
-                yum.classList.remove("selected_box_efect")
+                if(window.outerWidth <= 985){
+                   
+                    
+                    yum.style.width = "60%"
+                    yum.style.height = "60%"
+                    yum.classList.remove("selected_box_efect")
+
+                }else{
+
+                    
+                    yum.style.width = "22%"
+                    yum.style.height = "22%"
+                    yum.classList.remove("selected_box_efect")
+                }
                 
                     
                 })
             
         }
+        
     })
     
     
