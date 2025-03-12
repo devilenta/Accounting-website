@@ -231,8 +231,11 @@ justify-content: space-between;
     background-color: #296eb2;
 }
 #btn{
+    display: flex
+;
     text-align: left;
     width: 100%;
+    justify-content: space-between
    
 }
 
